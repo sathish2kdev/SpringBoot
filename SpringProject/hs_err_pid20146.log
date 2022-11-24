@@ -1,0 +1,21 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007fbec1e11755, pid=20146, tid=20194
+#
+# JRE version: OpenJDK Runtime Environment (15.0.2+7) (build 15.0.2+7-27)
+# Java VM: OpenJDK 64-Bit Server VM (15.0.2+7-27, mixed mode, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# J 1022 c1 java.nio.DirectIntBufferU.get(I)I java.base@15.0.2 (33 bytes) @ 0x00007fbec1e11755 [0x00007fbec1e116c0+0x0000000000000095]
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport -p%p -s%s -c%c -d%d -P%P -u%u -g%g -- %E" (or dumping to /home/fasoftwares/Changes-OBS 2.0/Recived Files/Back End/SpringProject/core.20146)
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -XX:+ShowCodeDetailsInExceptionMessages -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:33137 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=45333 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=localhost -Dspring.jmx.enabled=true -Dspring.application.admin.enabled=true -Djava.security.egd=file:/dev/./urandom -XX:TieredStopAtLevel=1 -Dspring.boot.project.name=SpringProject -javaagent:/home/fasoftwares/eclipse/jee-2022-06/eclipse/configuration/org.eclipse.osgi/401/0/.cp/lib/javaagent-shaded.jar -Dfile.encoding=UTF-8 com.example.student.SpringProjectApplication
+
+Host: 
